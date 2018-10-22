@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  componentTitle = "I am inside app component";
+
+  callMe(){
+    this.componentTitle = "button cliked";
+  }
 }
